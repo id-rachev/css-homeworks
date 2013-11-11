@@ -1,0 +1,27 @@
+body, form, div, ul, li, label, input, img {
+  margin: 0;
+  padding: 0; }
+
+body form div#nav-thumbnails {
+  margin: 10px 0 0 40px; }
+  body form div#nav-thumbnails ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 10px 0; }
+    body form div#nav-thumbnails ul li label img.thumbnail {
+      width: 150px;
+      opacity: 0.7; }
+      body form div#nav-thumbnails ul li label img.thumbnail:hover {
+        opacity: 1; }
+body form div#main-picture {
+  position: relative; }
+  body form div#main-picture input {
+    display: none; }
+  body form div#main-picture img {
+    position: absolute;
+    left: 40px;
+    width: 500px;
+    visibility: hidden; }
+  body form div#main-picture input:checked + img {
+    visibility: visible; }
+

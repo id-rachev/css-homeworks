@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{A9E2AF99-8393-4407-986C-37D45001665E}"
+	ProjectSection(SolutionItems) = preProject
+		1. Blue Text.html = 1. Blue Text.html
+		2. Purple Page.html = 2. Purple Page.html
+		3. Red Divs.html = 3. Red Divs.html
+		4. Programmer Calculator.html = 4. Programmer Calculator.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{CCB241EC-9DDF-40B2-A164-1D7C32E3A7D0}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Blue Text Styles.css = CSS\Blue Text Styles.css
+		CSS\Programmer Calculator Styles.css = CSS\Programmer Calculator Styles.css
+		CSS\Purple Page Styles.css = CSS\Purple Page Styles.css
+		CSS\Red Divs Styles.css = CSS\Red Divs Styles.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

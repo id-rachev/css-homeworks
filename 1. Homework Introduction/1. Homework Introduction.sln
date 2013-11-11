@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "1. Homework Introduction(1)", "http://localhost:50610", "{0230E492-ACD5-4AA3-A9F2-989A04DFC482}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50610"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Projects\Telerik Academy\CSS\CSS Projects\1. Homework Introduction\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50610\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50610"
+		Release.AspNetCompiler.PhysicalPath = "D:\Projects\Telerik Academy\CSS\CSS Projects\1. Homework Introduction\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50610\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "D:\Projects\Telerik Academy\CSS\CSS Projects\1. Homework Introduction\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0230E492-ACD5-4AA3-A9F2-989A04DFC482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0230E492-ACD5-4AA3-A9F2-989A04DFC482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

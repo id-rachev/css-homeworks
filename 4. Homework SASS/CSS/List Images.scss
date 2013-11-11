@@ -1,0 +1,53 @@
+body, form, div, ul, li, label, input, img {
+	margin: 0;
+	padding: 0;
+}
+body {
+
+	form {
+
+		div#nav-thumbnails {
+			margin: 10px 0 0 40px;
+
+			ul {
+
+				li {
+					list-style: none;
+					display: inline-block;
+					margin: 0 20px 10px 0; 
+
+					label {
+
+						img.thumbnail {
+							width: 150px;
+							opacity: 0.7;
+
+							&:hover {
+								opacity: 1;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		div#main-picture {
+			position: relative;
+
+			input {
+				display: none;
+			}
+
+			img {
+				position: absolute;
+				left: 40px;
+				width: 500px;
+				visibility: hidden;
+			}
+
+			input:checked + img {
+				visibility: visible;
+			}
+		}
+	}
+}

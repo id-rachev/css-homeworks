@@ -1,0 +1,42 @@
+﻿body {
+    font-family: Arial;
+}
+
+table {
+    border: 2px solid #c5c3ac;
+    border-collapse: collapse;
+    width: 650px;
+}
+
+table, th, td {
+    text-align: left;
+    padding: 7px;
+}
+
+thead th {
+    font-weight: lighter;
+    background-color: #56b906;
+    color: #ececd8;
+    border: 2px ridge #c5c3ac;
+}
+
+    thead th:last-child {
+        width: 18%;
+    }
+
+tbody tr:nth-child(2n) {
+    background-color: #ececd8;
+}
+
+tbody td {
+    border-width: 2px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #c5c3ac;
+}
+
+    tbody td img.germany, .mexico, .uk {
+        width: 28px;
+        vertical-align: middle;
+        margin: 0px 3px 0px 0px;
+    }

@@ -1,0 +1,21 @@
+﻿body {
+    color: #0094ff;
+}
+
+article p {
+    font-family: Consolas;
+}
+
+    article p:first-line {
+        font-weight: bold;
+    }
+
+/*@font-face {
+    font-family: edward-script;
+    src: url('Edwardian Script ITC.ttf');
+}*/
+
+article p:first-letter {
+    font-family: 'Edwardian Script ITC'/*edward-script*/; /*@font-face not working in IE*/
+    font-size: 2.6em;
+}

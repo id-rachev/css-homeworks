@@ -1,0 +1,80 @@
+﻿body {
+    background-color: #171717;
+}
+
+.section {
+    width: 660px;
+    font-family: Arial, Verdana;
+    border: 2px solid #806850;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    background-color: #2e2e2e;
+}
+
+    .section > header {
+        height: 66px;
+        background: url("IMG/background-header-img.png") no-repeat;
+    }
+
+header .form:before {
+    content: url("IMG/monitor-img.png");
+    position: relative;
+    top: 20px;
+    right: 12px;
+}
+
+.form {
+    float: right;
+    margin: -15px 8px 20px;
+}
+
+    .form label {
+        font-family: 'Bell MT', Calibri;
+        font-size: 24px;
+        font-weight: bold;
+        color: #fefefe;
+        margin-right: 10px;
+    }
+
+    .form input#user-name, input#user-email {
+        width: 145px;
+        margin-right: 20px;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .form input[type="submit"] {
+        height: 30px;
+        width: 58px;
+        color: #fefefe;
+        background: url("IMG/red-btn-img.png") no-repeat;
+        border: none;
+    }
+
+header h1 {
+    font-family: 'Bell MT', Calibri;
+    font-weight: lighter;
+    color: #f9d422;
+    margin: 10px 10px 15px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #898989;
+    margin: 0 10px;
+}
+
+.lighten {
+    color: #ccc;
+}
+
+p a {
+    text-decoration: none;
+    color: #898989;
+}
+
+    p a:hover {
+        text-decoration: underline;
+    }

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "5. Homework LESS", ".", "{E3E1CE95-9C3B-40A1-9663-C6AD6E5CE0F2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/5. Homework LESS"
+		Debug.AspNetCompiler.PhysicalPath = "..\5. Homework LESS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\5. Homework LESS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/5. Homework LESS"
+		Release.AspNetCompiler.PhysicalPath = "..\5. Homework LESS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\5. Homework LESS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55256"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3E1CE95-9C3B-40A1-9663-C6AD6E5CE0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E1CE95-9C3B-40A1-9663-C6AD6E5CE0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

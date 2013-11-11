@@ -1,0 +1,57 @@
+﻿body {
+    background-color: #a9a9a9;
+}
+
+    body > header {
+        text-align: center;
+    }
+
+header h1 {
+    color: #fafad2;
+    font-size: 48px;
+}
+
+article header h1 {
+    font-size: 32px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+    nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        color: #fff;
+    }
+
+        nav ul li a.current {
+            background-color: #d3d3d3;
+        }
+
+    nav ul li:nth-last-child(1) a {
+        text-decoration: underline;
+    }
+
+a:hover {
+    color: #ddd;
+}
+
+article > p {
+    font-size: 20px;
+}
+
+article footer > p {
+    font-size: 15px;
+}
+
+article footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body > footer{
+    text-align: center;
+    font-size: 20px;
+}
